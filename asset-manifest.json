@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/protfolio-frontend/static/css/main.b5cc4155.css",
-    "main.js": "/protfolio-frontend/static/js/main.b36d4889.js",
+    "main.js": "/protfolio-frontend/static/js/main.b6af72cf.js",
     "index.html": "/protfolio-frontend/index.html",
     "static/media/Vector_Studies.svg": "/protfolio-frontend/static/media/Vector_Studies.63e25f1aad314164f17e.svg",
     "main.b5cc4155.css.map": "/protfolio-frontend/static/css/main.b5cc4155.css.map",
-    "main.b36d4889.js.map": "/protfolio-frontend/static/js/main.b36d4889.js.map"
+    "main.b6af72cf.js.map": "/protfolio-frontend/static/js/main.b6af72cf.js.map"
   },
   "entrypoints": [
     "static/css/main.b5cc4155.css",
-    "static/js/main.b36d4889.js"
+    "static/js/main.b6af72cf.js"
   ]
 }
