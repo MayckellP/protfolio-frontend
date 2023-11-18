@@ -1,0 +1,236 @@
+.cont-studies {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-ball-studies-done {
+  width: 16%;
+  height: 40%;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: againBallStudies 0.6s forwards;
+}
+
+@keyframes againBallStudies {
+  from {
+    width: 16%;
+  }
+  to {
+    width: 99%;
+    height: 25%;
+    border-radius: none;
+    margin-bottom: 25rem;
+    transition: 0.6s linear;
+  }
+}
+
+/**------------------------CHANGE ANIMATION TO LINKS*/
+.dark-ball-animation-studies-in {
+  width: 99%;
+  height: 25%;
+  border-radius: none;
+  margin-bottom: 25rem;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: StudiesIn 0.4s forwards;
+}
+
+@keyframes StudiesIn {
+  from {
+    width: 99%;
+    height: 25%;
+    border-radius: none;
+    margin-bottom: 25rem;
+  }
+  to {
+    width: 16%;
+    height: 40%;
+    border-radius: 0%;
+    margin-bottom: 0rem;
+    transition: 0.4s linear;
+  }
+}
+
+.topSide-studies {
+  width: 95%;
+  height: 25%;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  animation: showChart 2s forwards;
+}
+
+.botSide-studies {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  animation: showChart 2s forwards;
+}
+
+/*!--------------------------------------------------TOP SIDE*/
+.cont-title-studies {
+  width: 100%;
+  color: white;
+  font-size: 60px;
+  margin-bottom: 1rem;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.cont-title-studies span {
+  font-size: 40px;
+}
+
+/*!--------------------------------------------------BOT SIDE*/
+
+.cont-cronogram {
+  background: URL("/public/image/Vector_Studies.svg") no-repeat center;
+  background-size: 90%;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+
+/**--------------------------------------------------COMPONENT ITEM-YEAR*/
+
+/*!--------------------------------------------------UP*/
+.general-itemYear-up {
+  width: 12%;
+  margin: 0rem 2rem;
+  padding-bottom: 5rem;
+  display: flex;
+  align-items: center;
+}
+
+/**--------------------------------------------------COMPONENT TOASTER-YEAR*/
+.toaster-body-up {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0.4rem;
+}
+.cont-subTitle-toaster-up {
+  color: rgba(255, 255, 255, 0.7);
+  align-self: flex-start;
+}
+.cont-description-toaster {
+  color: white;
+  font-size: 11px;
+}
+.cont-year-toaster-up {
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+/*!--------------------------------------------------DOWN*/
+.general-itemYear-down {
+  width: 12%;
+  margin: 0rem 2rem;
+  padding-top: 5rem;
+  display: flex;
+  align-items: center;
+}
+.cont-itemYear {
+  display: flex;
+  width: 10rem;
+  flex-direction: column;
+  align-items: center;
+}
+.title-itemYear {
+  font-size: 35px;
+  font-weight: bold;
+  font-family: "Imprima", sans-serif;
+}
+.btn-itemYear,
+.btn-itemYear-ZHAW {
+  background-color: #65a8bd;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  filter: drop-shadow(5px 5px 15px rgba(0, 0, 0, 0.25));
+}
+.btn-itemYear-ZHAW {
+  background-color: #365d6a;
+}
+.logo_studies {
+  width: 35%;
+}
+.subTitle-itemYear {
+  color: white;
+  font-size: 15px;
+  text-align: center;
+}
+.icon_studies {
+  color: #bc6808;
+  font-size: 40px;
+  line-height: normal;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+/**--------------------------------------------------COMPONENT TOASTER-YEAR*/
+.toaster-year {
+  background-color: #202020e2;
+  width: 11rem;
+  margin-left: 1rem;
+  padding: 0;
+  border-radius: 22px;
+  position: absolute;
+  margin-left: 10rem;
+  z-index: 3;
+}
+.btn-close {
+  filter: invert(1) grayscale(100%) brightness(200%);
+}
+.toaster-title {
+  background-color: rgba(255, 255, 255, 0);
+  width: 100%;
+  margin: 0;
+  padding: 0.5rem 0.6rem;
+  border-bottom: 1px white solid;
+}
+.toaster-title strong {
+  color: white;
+  margin: auto;
+}
+.toaster-title strong span {
+  font-size: 12px;
+}
+.toaster-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cont-subTitle-toaster {
+  color: rgba(255, 255, 255, 0.7);
+  align-self: flex-end;
+}
+.cont-description-toaster {
+  color: white;
+  font-size: 11px;
+}
+.cont-year-toaster {
+  color: white;
+  margin-top: 2rem;
+  font-size: 25px;
+  font-weight: bold;
+}

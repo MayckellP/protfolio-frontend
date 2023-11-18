@@ -1,0 +1,458 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+@import url("https://fonts.cdnfonts.com/css/syne");
+@import url("https://fonts.cdnfonts.com/css/jomhuria");
+@import url("https://fonts.cdnfonts.com/css/imprima");
+@import url("https://fonts.cdnfonts.com/css/sen");
+.cont-home {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+}
+/*!------------------------------------NAV HOME*/
+.nav-home {
+  width: 30%;
+  height: 90%;
+}
+.hiddenElement {
+  width: 30%;
+  height: 90%;
+  opacity: 0;
+  transition: opacity 0.1s linear;
+}
+.contCenter {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dark-ball-about-in {
+  width: 40%;
+  height: 40%;
+  background-color: #202020;
+  border-radius: none;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  transition: 0.3s linear;
+}
+
+/*!----------------------ITEMS*/
+.cont-items {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+.cont-items li {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.items-right,
+.items-left {
+  width: 7rem;
+  height: 7rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-left {
+  margin-right: 35%;
+}
+
+.items-right span,
+.items-left span {
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Imprima", sans-serif;
+}
+
+.cont-img-about,
+.cont-img-skills,
+.cont-img-projects,
+.cont-img-contact {
+  text-align: center;
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 42px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.25);
+  transition: transform 0.2s ease;
+  transform-origin: top left;
+}
+.cont-img-about {
+  background-color: #41c220;
+}
+.cont-img-about i,
+.cont-img-skills i,
+.cont-img-projects i,
+.cont-img-contact i {
+  transition: transform 0.2s ease;
+}
+.cont-img-skills {
+  background-color: #616cc9;
+}
+.cont-img-projects {
+  background-color: #a65527;
+}
+.cont-img-contact {
+  background-color: #c22a20;
+}
+
+/*!------------------------------------CONT ROBIT*/
+.mini-robit {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dark-ball {
+  width: 85%;
+  height: 85%;
+  border-radius: 50%;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+}
+.cont-title-Mayckell {
+  width: 43%;
+  margin: auto;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.cont-title-Mayckell h3 {
+  color: white;
+  font-size: 20px;
+  line-height: normal;
+  font-family: "Syne", sans-serif;
+}
+.web_developer {
+  color: white;
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Jomhuria", sans-serif;
+}
+.fullstack {
+  color: #2ac4e6;
+  align-self: flex-end;
+  font-size: 38px;
+  line-height: normal;
+  font-family: "Jomhuria", sans-serif;
+}
+
+.Robit {
+  width: 20%;
+  position: absolute;
+  bottom: 0;
+  margin-left: 7.5%;
+}
+
+/*!------------------------------------SET MODE*/
+.setMode {
+  width: 30%;
+  height: 90%;
+  visibility: hidden;
+}
+.setMode h2 {
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  text-align: center;
+  left: 61.5%;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.text-design {
+  font-size: 60px;
+  font-weight: bold;
+  font-family: "Syne", sans-serif;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.text-welcome {
+  font-size: 22px;
+  font-weight: 600;
+}
+.cont-set-items {
+  width: 100%;
+  height: 100%;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.items-set-right,
+.items-set-left {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-set-right {
+  margin-left: 20%;
+}
+
+.items-set-right span,
+.items-set-left span {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Imprima", sans-serif;
+}
+
+.cont-img-darkMode {
+  background-color: black;
+}
+.cont-img-translate {
+  background-color: #2e9a9a;
+}
+
+.cont-img-darkMode,
+.cont-img-translate {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cont-img-darkMode i,
+.cont-img-translate i {
+  transition: transform 0.2s ease;
+}
+
+/*!------------------------------------TRANSITIONS*/
+/**----------------NAV-HOME (LEFT SIDE)*/
+.cont-img-about:hover,
+.cont-img-skills:hover,
+.cont-img-projects:hover,
+.cont-img-contact:hover {
+  transform: scale(1.1);
+}
+.cont-img-about:hover i,
+.cont-img-skills:hover i,
+.cont-img-projects:hover i,
+.cont-img-contact:hover i {
+  transform: rotate(20deg);
+}
+
+/**----------------SET-MODE (RIGHT SIDE)*/
+.cont-img-darkMode:hover,
+.cont-img-translate:hover {
+  transform: scale(1.1);
+}
+.cont-img-darkMode:hover i,
+.cont-img-translate:hover i {
+  transform: scale(1.4);
+}
+
+@media (max-width: 850px) {
+  .cont-home {
+    width: 100%;
+    height: 95vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  }
+
+  /*!------------------------------------NAV HOME*/
+  .nav-home {
+    width: 100%;
+    height: 25%;
+  }
+  .hiddenElement {
+    width: 30%;
+    height: 90%;
+    opacity: 0;
+    transition: opacity 0.1s linear;
+  }
+  .contCenter {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .dark-ball-about-in {
+    width: 40%;
+    height: 40%;
+    background-color: #202020;
+    border-radius: none;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+    transition: 0.3s linear;
+  }
+
+  /*!----------------------ITEMS*/
+  .cont-items {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0rem 0.5rem;
+  }
+  .cont-items li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .items-right,
+  .items-left {
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    margin-top: 70%;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .items-left {
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 70%;
+  }
+
+  .items-right span,
+  .items-left span {
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "Imprima", sans-serif;
+  }
+
+  .cont-img-about,
+  .cont-img-skills,
+  .cont-img-projects,
+  .cont-img-contact {
+    text-align: center;
+    color: white;
+    width: 4.5rem;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.25);
+    transition: none;
+    transform-origin: none;
+  }
+  .cont-img-about {
+    background-color: #41c220;
+  }
+  .cont-img-about i,
+  .cont-img-skills i,
+  .cont-img-projects i,
+  .cont-img-contact i {
+    transition: transform 0.2s ease;
+  }
+  .cont-img-skills {
+    background-color: #616cc9;
+  }
+  .cont-img-projects {
+    background-color: #a65527;
+  }
+  .cont-img-contact {
+    background-color: #c22a20;
+  }
+
+  /*!------------------------------------CONT ROBIT*/
+  .mini-robit {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .dark-ball {
+    width: 90%;
+    height: 80%;
+    border-radius: 50%;
+    background-color: #202020;
+    box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  }
+  .cont-title-Mayckell {
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+  .cont-title-Mayckell h3 {
+    text-align: center;
+    font-size: 25px;
+  }
+  .web_developer {
+    text-align: center;
+    font-size: 80px;
+    line-height: 60%;
+  }
+  .fullstack {
+    font-size: 38px;
+  }
+
+  .Robit {
+    width: 55%;
+    position: absolute;
+    bottom: auto;
+    right: 5rem;
+  }
+
+  /*!------------------------------------SET MODE*/
+  .setMode {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column-reverse;
+    padding-bottom: 1rem;
+  }
+  .setMode h2 {
+    width: 90%;
+    font-size: 45px;
+    position: relative;
+    text-align: end;
+    margin: auto;
+    left: 0;
+    margin-top: 0rem;
+  }
+  .text-design {
+    font-size: 60px;
+  }
+  .text-welcome {
+    text-align: end;
+  }
+  .cont-set-items {
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .items-set-right,
+  .items-set-left {
+    align-items: flex-start;
+  }
+  .items-set-right {
+    margin-left: 0%;
+  }
+}

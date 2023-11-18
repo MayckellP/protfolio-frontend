@@ -1,0 +1,191 @@
+.cont-skills {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-ball-skills-done {
+  width: 16%;
+  height: 40%;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: againBall 0.3s forwards;
+}
+
+@keyframes againBall {
+  from {
+    width: 16%;
+  }
+  to {
+    width: 35%;
+    height: 70%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    transition: 0.3s linear;
+  }
+}
+
+/**------------------------CHANGE ANIMATION TO LINKS*/
+.dark-ball-animation-skills-in {
+  width: 35%;
+  height: 70%;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: SkillsIn 0.4s forwards;
+}
+
+@keyframes SkillsIn {
+  from {
+    width: 35%;
+    height: 70%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  to {
+    width: 16%;
+    height: 40%;
+    border-radius: 0%;
+    margin-bottom: 0rem;
+    transition: 0.4s linear;
+  }
+}
+
+.leftSide-skills {
+  width: 68%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: showChart 2s forwards;
+}
+
+.rigthSide-skills {
+  width: 32%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  animation: showChart 2s forwards;
+}
+
+/*!--------------------------------------------------LEFT SIDE*/
+.cont-title {
+  width: 100%;
+  text-align: center;
+  font-size: 60px;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cont-details-skills {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+/**------------------------------------LEFT SIDE - SKILLS FRONT*/
+.cont-frontend {
+  width: 46%;
+  padding: 0rem 1rem;
+}
+.title-frontend {
+  font-family: "Syne", sans-serif;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+/*!------------------------------------LEFT SIDE - COMPONENT SKILL*/
+.item-skill {
+  background-color: white;
+  width: 5.5rem;
+  height: 5.5rem;
+  margin-right: 1.5rem;
+  border-radius: 50%;
+  filter: drop-shadow(4px 4px 15px rgba(0, 0, 0, 0.25));
+  transition: transform 0.2s ease;
+}
+.item-skill:hover {
+  transform: rotate(25deg);
+}
+
+.cont-img-skill {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont-img-skill img {
+  width: 75%;
+  transition: transform 0.2s ease;
+}
+.cont-img-skill img:hover {
+  transform: scale(1.2);
+}
+
+/**------------------------------------RIGTH SIDE - CHART SKILLS*/
+.cont-chart {
+  width: 54%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.chart-skills {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+@keyframes showChart {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transition: 1.5s ease-in;
+  }
+}
+.cont-btn-academic {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.study-logo {
+  color: #ef4444;
+  font-size: 35px;
+  margin-right: 1rem;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.btn-text {
+  background-color: #2ac4e6;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  color: white;
+  font-family: "Imprima", sans-serif;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+}
+
+/*!------------------------------------RIGHT SIDE - COMPONENT SKILL*/
+.cont-backend,
+.cont-tools {
+  width: 100%;
+  padding: 1rem 1rem;
+}

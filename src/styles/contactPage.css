@@ -1,0 +1,283 @@
+.cont-contact {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dark-ball-skills-done {
+  width: 16%;
+  height: 40%;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: againBall 0.3s forwards;
+}
+
+@keyframes againBall {
+  from {
+    width: 16%;
+  }
+  to {
+    width: 35%;
+    height: 70%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+    transition: 0.3s linear;
+  }
+}
+
+/**------------------------CHANGE ANIMATION TO LINKS*/
+.dark-ball-animation-skills-in {
+  width: 35%;
+  height: 70%;
+  border-radius: 50%;
+  margin-bottom: 2rem;
+  background-color: #202020;
+  box-shadow: 20px 20px 50px 0px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  z-index: 0;
+  animation: SkillsIn 0.4s forwards;
+}
+
+@keyframes SkillsIn {
+  from {
+    width: 35%;
+    height: 70%;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  to {
+    width: 16%;
+    height: 40%;
+    border-radius: 0%;
+    margin-bottom: 0rem;
+    transition: 0.4s linear;
+  }
+}
+
+.leftSide-contact {
+  width: 63%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  animation: showChart 2s forwards;
+}
+
+.rigthSide-contact {
+  width: 37%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 3rem;
+  animation: showChart 2s forwards;
+}
+
+/*!--------------------------------------------------LEFT SIDE*/
+
+.cont-details-contact {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+/**------------------------------------LEFT SIDE - SKILLS FRONT*/
+.cont-formular {
+  width: 58%;
+  padding: 2rem 1rem;
+}
+.title-form {
+  font-family: "Syne", sans-serif;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.cont-name-number,
+.cont-email,
+.cont-comment {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+}
+.input-name,
+.input-number,
+.input-mail,
+.input-comment {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 49%;
+  border-radius: 15px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+  font-family: "Imprima", sans-serif;
+}
+.input-mail {
+  width: 92%;
+}
+.input-comment {
+  width: 90%;
+}
+.input-comment .inputs-form {
+  height: 7rem;
+  max-height: 10rem;
+}
+
+.inputs-form {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 15px;
+}
+
+.cont-btn-contact {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.btn-contact {
+  width: 50%;
+  background-color: #2ac4e6;
+  padding: 0.5rem 1.5rem;
+  border-radius: 10px;
+  color: white;
+  font-family: "Imprima", sans-serif;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+}
+
+/**------------------------------------RIGTH SIDE - CHART SKILLS*/
+.cont-contact-robit-title {
+  width: 42%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.cont-Robit-title {
+  width: 100%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.cont-Robit-title h3 {
+  font-size: 38px;
+  font-weight: bold;
+  font-family: "Syne", sans-serif;
+}
+
+.cont-Robit-title span {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.648);
+  font-family: "Syne", sans-serif;
+}
+.cont-Robit-contact {
+  text-align: center;
+  margin-top: 1rem;
+}
+.Robit-contact {
+  width: 55%;
+}
+
+/*!------------------------------------RIGHT SIDE - COMPONENT SKILL*/
+.cont-contact-title {
+  width: 100%;
+}
+.title-contact {
+  font-size: 35px;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+.text-design-contact {
+  margin-left: 2rem;
+  font-size: 60px;
+  line-height: normal;
+  font-family: "Syne", sans-serif;
+  font-weight: bold;
+  text-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+}
+
+.cont-accounts-items {
+  width: 100%;
+  margin-top: 5rem;
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.items-accounts-right,
+.items-accounts-mid,
+.items-accounts-left {
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.items-accounts-right {
+  margin-left: 22%;
+}
+
+.items-accounts-mid {
+  margin-left: 13%;
+}
+
+.items-accounts-right span,
+.items-accounts-mid span,
+.items-accounts-left span {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 13px;
+  font-weight: bold;
+  font-family: "Imprima", sans-serif;
+}
+
+.cont-img-mail {
+  background-color: #c61a1a;
+}
+.cont-img-github {
+  background-color: #410242;
+}
+
+.cont-img-linkedin {
+  background-color: #170aa4;
+}
+
+.cont-img-mail,
+.cont-img-github,
+.cont-img-linkedin {
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 28px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 25px 0px rgba(0, 0, 0, 0.25);
+}
+
+.cont-img-mail i,
+.cont-img-github i,
+.cont-img-linkedin i {
+  transition: transform 0.2s ease;
+}
+
+/*!------------------------------------TRANSITIONS*/
+.cont-img-mail:hover,
+.cont-img-github:hover,
+.cont-img-linkedin:hover {
+  transform: scale(1.1);
+}
+.cont-img-mail:hover i,
+.cont-img-github:hover i,
+.cont-img-linkedin:hover i {
+  transform: scale(1.4);
+}
